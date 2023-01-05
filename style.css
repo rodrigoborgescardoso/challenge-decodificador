@@ -1,0 +1,132 @@
+body {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+main {
+    background: #F3F5FC;
+    padding: 20px;
+}
+
+.entrada {
+    display: inline-block;
+    width: 66%;
+    height: 85vh;
+    vertical-align: top;
+}
+
+.logo {
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    width: 2%;
+}
+
+.inputEntrada {
+    margin: 10% 10% 3% 10%;
+    font-size: 1.5em;
+    color: #0A3871;
+    background: none;
+    border-width: 0;
+    width: 70%;
+    height: 70%;
+}
+
+.inputEntrada::placeholder {
+    color: #0A3871;
+}
+
+.botoes {
+    margin: 0 10% 0 10%;
+}
+
+.botoes p {
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    color: #495057;
+}
+
+.botoes p:before {
+    content: url('exclamacao.png');
+}
+
+#botaoCript {
+    background: #0A3871;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    min-width: 26%;
+    padding: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+#botaoDescript {
+    background: #D8DFE8;
+    color: #0A3871;
+    font-size: 1.1em;
+    min-width: 26%;
+    padding: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #0A3871;
+}
+
+.saida {
+    display: inline-block;
+    background: #FFFFFF;
+    width: 30%;
+    height: 85vh;
+    margin-left: 1%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.nenhumaMensagem {
+    margin: 40% auto;
+}
+
+.nenhumaMensagem img {
+    width: 60%;
+}
+
+.nenhumaMensagem p {
+    font-size: 1.4em;
+    margin-top: 4%;
+}
+
+.inputSaida {
+    margin: 10% 10% 4% 10%;
+    font-size: 1.5em;
+    color: #0A3871;
+    background: none;
+    border-width: 0;
+    width: 70%;
+    height: 80%;
+}
+
+.inputSaida::placeholder {
+    color: #0A3871;
+}
+
+#botaoCopiar {
+    background: #D8DFE8;
+    color: #0A3871;
+    font-size: 1.1em;
+    min-width: 26%;
+    padding: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #0A3871;
+}
+
+footer {
+    padding: 45px;
+    background: linear-gradient(#D8DFE8 5%, #F3F5FC 50%, #FFFFFF);
+}
+
+footer p {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+    text-decoration: underline;
+}
